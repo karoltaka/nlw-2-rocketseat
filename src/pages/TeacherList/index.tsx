@@ -1,7 +1,15 @@
 import React from "react";
 
+import PageHeader from "../../components/PageHeader";
+
+import "./style.css";
+
 function TeacherList() {
-  return <h1>Teachers</h1>;
+  return (
+    <div id="page-teacher-list" className="container">
+      <PageHeader />
+    </div>
+  );
 }
 
 export default TeacherList;
