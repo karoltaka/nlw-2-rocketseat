@@ -38,7 +38,26 @@
   border-bottom: 1px solid var(--color-line-white);
 }
 
-#page-teacher-form main .input-block label {
+#page-teacher-form main fieldset legend button {
+  background: none;
+  border: 0;
+  color: var(--color-primary);
+  font: 700 1.6rem Archivo;
+
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+#page-teacher-form main fieldset legend button {
+  color: var(--color-primary-dark);
+}
+
+#page-teacher-form main fieldset .input-block + .textarea-block,
+#page-teacher-form main fieldset .select-block + .input-block {
+  margin-top: 2.4rem;
+}
+
+#page-teacher-form main label {
   color: var(--color-text-complement);
 }
 
@@ -95,6 +114,16 @@
 
   #page-teacher-form main fieldset {
     padding: 0 6.4rem;
+  }
+
+  #page-teacher-form main .shedule-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 1.6rem;
+  }
+
+  #page-teacher-form main .shedule-item .input-block {
+    margin-top: 0 !important;
   }
 
   #page-teacher-form main footer {
