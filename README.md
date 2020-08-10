@@ -25,7 +25,7 @@
 </div>
 
 <p align="center">
-  <img alt="mockup" src=".github/proffy_design.png" width="100%">
+  <img alt="mockup" src=".github/proffy.png" width="100%">
 </p>
 
 <p align="center">
